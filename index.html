@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Techno Group</title>
+    <title>index</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">   
@@ -127,6 +127,16 @@ body::-webkit-scrollbar-thumb {
     color:green;
 }
 h2{text-align:center;}
+.coin{
+    margin-right:100px;
+    position:absolute;
+}
+.coin img{
+    height:200px;
+}
+b{
+    text-decoration:underline;
+}
     </style>
 </head>
 <body data-spy="scroll" data-target=".navbar">
@@ -137,7 +147,7 @@ h2{text-align:center;}
     <li><a href="#header">Home</a></li>
     <li><a href="#values">Our Vaules</a></li>
     <li><a href="#economy">Economy</a></li>
-    <li><a href="#4">Fourth</a></li>
+    <li><a href="#Trans">Transportaion</a></li>
     <li><a href="#5">Fifth</a></li>
   </ul>
 </nav>
@@ -247,15 +257,19 @@ h2{text-align:center;}
     </span>
 	</section>
 	<section id="economy" class="economy">
-	    <h1>Our Economy</h1>
-	    <h2>Curreny</h2>
+	   
+	 <div class="coin"><img src="http://i.imgur.com/RnGcDU5.png"/></div>
+	   <h1>Our Economy</h1>
+	    <h2>Currency</h2>
 	        <p>Our society uses Techno Coin, a cryptocurrency.</p>
 	        <h2>Whats a cryptocurrency?</h2>
 	         <p>Crypto-Currency is an online currency where it uses a security system called Cryptography to keep your money extremely safe. Due to the powerful protection, counterfeit is much more unlikely to happen.</p>
 	            <h2>Payment Sytem</h2>
-	            <p>I our community, wallets are thin credit card sized cards with a 2cm bulge in the middle for a camera. If you want to pay for anything, online or instore, take the super easy steps pushing the red button on the side, looking right into the camera, once the light on the top  flashes green, put it one your payment device and you are done.</p>
-	            <div class="import"><p>With this, we can incredibly reduce the amount of material we use like paper and factories that we would otherwise use for paper cash.</p></div>
+	            <p>I our community, wallets are thin credit card sized cards with a 2cm bulge in the middle for a camera. If you want to pay for anything, online or instore, take the super easy steps pushing the red button on the side, looking right into the camera, once the light on the top  flashes green, put it one your payment device and you are done. This card is <b>Provided free by the governement.</b></p>
+	            <div class="import"><p>With this, we can <b>incredibly reduce the amount of material we use like paper and factories </b>that we would otherwise use for paper cash.</p></div>
 	</section>
+	<section id="trans">
+	    
     <script>
         $("nav").find("a").click(function(e) {
     e.preventDefault();
