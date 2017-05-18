@@ -19,7 +19,7 @@
 
     p{
         text-align:center;
-        font-size:18;
+        font-size:20;
     }
 	.body{
 	
@@ -47,11 +47,9 @@
     p.motto{
         text-align:center;
         color:white;
-        font-size:18;
+        font-size:20;
     }
-    span p{
-      
-    }
+   
      a{
          font-size:;
      }
@@ -189,6 +187,49 @@ u.transtable{color:white;
 b{
     background-color:green;
 }
+.cuadro_intro_hover{
+        padding: 0px;
+		position: relative;
+		overflow: hidden;
+		height: 200px;
+	}
+	.cuadro_intro_hover:hover .caption{
+		opacity: 1;
+		transform: translateY(-150px);
+		-webkit-transform:translateY(-150px);
+		-moz-transform:translateY(-150px);
+		-ms-transform:translateY(-150px);
+		-o-transform:translateY(-150px);
+	}
+	.cuadro_intro_hover img{
+		z-index: 4;
+	}
+	.cuadro_intro_hover .caption{
+		position: absolute;
+		top:150px;
+		-webkit-transition:all 0.3s ease-in-out;
+		-moz-transition:all 0.3s ease-in-out;
+		-o-transition:all 0.3s ease-in-out;
+		-ms-transition:all 0.3s ease-in-out;
+		transition:all 0.3s ease-in-out;
+		width: 100%;
+	}
+	.cuadro_intro_hover .blur{
+		background-color: rgba(0,0,0,0.7);
+		height: 300px;
+		z-index: 5;
+		position: absolute;
+		width: 100%;
+	}
+	.cuadro_intro_hover .caption-text{
+		z-index: 10;
+		color: #fff;
+		position: absolute;
+		height: 300px;
+		text-align: center;
+		top:-20px;
+		width: 100%;
+	}
 
     </style>
 </head>
@@ -204,7 +245,7 @@ b{
     <li><a href="#Trans">Transportaion</a></li>
     <li><a href="#edu">Education</a></li>
         <li><a href="#laws">Laws </a></li>
-         <li><a href="#laws">Environment </a></li>
+         <li><a href="#house">Environment/Housing</a></li>
   </ul>
 </nav>
 
@@ -297,19 +338,19 @@ b{
 	<p style="color:black;">What jobs does Techno Group Offrer. Well we offer all Tech based jobs. Every thing from Web Devlopment to Computer Engineer. Any thing Tech Based we have. What will I be paid? All Jobs pay the same here, it is not about making money but living life to the fullest. We create jobs for EVERYONE.</p>
 	
 	  <pre style="font-size:18px;">
-	  -Web Devlopment
-	  -Technical Engineer
-	  -IT Pro
-	  -Network Admin
-	  -Systems analyst
-	  -Database Administrator
-	  -Network Architect
-	  -Information security analyst
-	  -IT project manager
-	  -Program Devlopment 
-	  -Billing Worker
+
+	  -Web Development - Develops website 
+	  -Network Admin- Database(server  that holds computer data) manager
+	  -Network Architect - Develops internet infrastructure.
+	  -Internet Security Personal - Manages the internet securty system of the city.
+	  -Program Developer - Creates programs
+	  -Billing Worker- Manages the currency and billing
+	  -Farmer - Farms crops and animals, uses code to program their vehicles and shorten production time
+	  -Financial Personal - Does finacle things for the people like accounting
+	  -Educators - Teaches people at different age level, uses code to their advantage as they teach
 	  </pre>
 	  <br />
+	  <p>A percentage of your pay check goes to government, this percentage barely varies and in the end most paychecks are the same.</p>
 <br />
 <br/>
 	<br/>
@@ -360,11 +401,18 @@ b{
 	</section>
 	<section id="edu" class="edu">
 	<center><h1 style="color:black;">Education</h1></center>
-	<h2>Tech is partducation</h2>
-	<p style="color:black;">Everyone is granted education. Education Starts at age 5 in elementary school. At the age of 8, students will learn start to learn some more tech skills. Students education gets more tech based as they get older. At age 10, the last year of elementary school, we start to tech kids to code. Conding gets more advanced later on in their education.</p>
-	    <br />
-	<br />
-	<br />
+	<h2>Tech is an important part of Education</h2>
+	<p style="color:black;">Everyone is granted education. Education Starts at age 5 in elementary school. At the age of 8, students will learn start to learn some more tech skills. Students education gets more tech based as they get older. At age 10, the last year of elementary school, we start to tech kids to code. Coding gets more advanced later on in their education.</p>
+
+<p style="color:black;">
+    Age 5-8 - Regular normal school.
+Age 8 - 10 - Teaches kids more advanced computer skills.
+Age 10 - 11 Teaches HTML/CSS (Coding language used to make webpages).
+Age 12 - 13 Teaches Javascript(Used to make webapps like google docs) and the extensions of Angular js and jQuery.
+Age 13 - 16 - Teaches Java, Perl, PHP, and .NET Which are used for security.
+Age 16 - Till end of college - Teaches the C language which is used in games and security. On top of this you will learn your skill. 
+
+</p>
 	<br />
 	<br />
 	<br/>
@@ -375,7 +423,93 @@ b{
 	<br />
 	<br/>
 	</section>
+	<section id="laws">
 	    
+	</sectiion>
+	<section id="house" class="house">
+	  
+	</section>
+	<hr>
+
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+    			<div class="col-lg-3 col-md-6">
+                <div class="container">
+	
+   
+    	<div class="col-lg-3">
+    
+				
+	    </div>
+            
+
+            <div class="col-lg-3 col-md-6">
+			<h3>Site Map</h3>
+                <ul>
+				<li><a href="#title"><i class="fa fa-file"></i> Home</a></li>
+				<li><a href="#values"><i class="fa fa-bars" aria-hidden="true"></i> Our Values</a></li>
+				<li><a href="#economy"><i class="fa fa-money" aria-hidden="true"></i> Economy</a></li>
+				<li><a href="#jobs"><i class="fa fa-briefcase" aria-hidden="true"></i> Jobs</a></li>
+				<li><a href="#trans"><i class="fa fa-bus" aria-hidden="true"></i> Transportaition</a></li>
+				<li><a href="#edu"><i class="fa fa-book" aria-hidden="true"></i> Education</a></li>
+				<li><a href="laws"><i class="fa fa-address-card-o" aria-hidden="true"></i> Laws</a></li>
+				<li><a href="house"><i class="fa fa-home" aria-hidden="true"></i> Envirorment/Housing</a></li>
+				</ul>
+            </div>
+
+            
+            <h3>Follow:</h3>
+			
+			
+
+
+<a href="https://github.com/englishproject100/englishproject100.github.io"  target="_blank" title="GitHub"><span class="fa-stack fa-lg">
+  <i class="fa fa-square-o fa-stack-2x"></i>
+  <i class="fa fa-github fa-stack-1x"></i>
+</span>
+GitHub</a>
+
+	
+
+
+		
+			
+			</div>
+			<br/>
+            <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/hu_HU/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="fb-like" data-href="" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+
+<a href="https://twitter.com/share" class="twitter-share-button" data-url=""></a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+<div class="g-plusone" data-annotation="inline" data-width="300" data-href=""></div>
+
+<!-- Helyezd el ezt a címkét az utolsó +1 gomb címke mögé. -->
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/platform.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+			<br/>
+			
+				<hr>
+                    <p>Copyright © JustASchoolProject Inc.</p>
+					
+					
+					
+        </footer>
+
     <script>
         $("nav").find("a").click(function(e) {
     e.preventDefault();
